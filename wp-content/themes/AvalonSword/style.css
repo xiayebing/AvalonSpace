@@ -1,0 +1,64 @@
+/*
+Theme Name:         Avalon Sword
+Theme URI:          https://wl-avalon.com/
+Description:        Saber's Home
+Version:            1.0.0
+Author:             Zhengjun Wang
+Author URI:         https://wl-avalon.com/
+Text Domain:        Avalon Sword
+Tags: 博客,saber,二次元,计算机,编程
+
+License:            MIT License
+License URI:        http://opensource.org/licenses/MIT
+*/
+
+#header{
+    background: #90a090;
+    border-bottom: double 3px #aba;
+    border-left: solid 1px #9a9;
+    border-right: solid 1px #565;
+    border-top: solid 1px #9a9;
+    margin: 0;
+    padding:60px;
+}
+
+#header{
+    background: url("images/headerbg.jpg");
+}
+
+.post-item{
+    width:610px;
+    padding: 20px;
+    border:1px solid #CFCFCF;
+    box-shadow: 0 0 5px #C6C6C6;
+    background-image: url("images/headerbg.jpg");
+    background-repeat: no-repeat;
+    background-position: 99% 5px;
+    margin-bottom: 20px;
+}
+
+#home-loop{
+    margin-top: 20px;
+}
+
+.post-item h2{
+    font-size:26px;
+    margin:10px 0;
+}
+
+.post-item h2 a{
+    color: #000000;
+    text-decoration:none;
+}
+
+.post-meta{
+    margin: 0 0 10px;
+    font-size:12px;
+    color:#000000;
+}
+
+.post-meta a,.post-meta span{
+    color:#000000;
+
+    margin-left:10px;
+}
